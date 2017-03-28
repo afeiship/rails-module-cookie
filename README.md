@@ -45,3 +45,6 @@ rake db:create db:migrate
 user:afei
 password:afei@123.com
 ```
+
+## Attention:
++ DON't OPEN Crossdomain plugin,OR you will GET SOME ERROR!!!!
