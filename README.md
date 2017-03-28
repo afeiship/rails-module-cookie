@@ -41,5 +41,7 @@ rake db:create db:migrate
 ```
 
 + register a new user:
+```conf
 user:afei
 password:afei@123.com
+```
