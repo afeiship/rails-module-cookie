@@ -32,3 +32,14 @@ gem 'bcrypt', '~> 3.1.7'
 
   root :to => 'pages#welcome' 
 ```
+
+
++ add auth_token to Users table;
+```bash
+rails g migration AddAuthTokenToUsers auth_token:string
+rake db:create db:migrate
+```
+
++ register a new user:
+user:afei
+password:afei@123.com
